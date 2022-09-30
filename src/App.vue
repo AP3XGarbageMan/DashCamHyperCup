@@ -4,9 +4,7 @@
 		<button @click="AddFakeData">Fake Data</button>
 		<button @click="showHelp">Help</button>
 		<button @click="switchTeam">switchTeams</button>
-	</div>
-	<div id="SaveLocalStorage">
-		<a id='saveBar' download='SaveToLocalStorage' type='text'>Saving Data</a>
+		<button @click="writeDataToLocalStorage">LocalStorage</button>
 		<button @click="writeDataToLocalStorage">Save in Local Storage</button>
 		<button @click="writeDataToLocalStorage">Write data to file</button>
 	</div>
@@ -120,7 +118,7 @@ export default defineComponent({
 				});
 			}
 
-			var teams = ["UNSC", "D", "ARC", "F1R3", "HHI", "DARK"];
+			var teams = ["TIMO", "BNDT", "LOOP", "THE", "NOOB", "VOX"];
 			var redTeam = teams[Math.floor(Math.random() * teams.length)];
 			teams.splice(teams.indexOf(redTeam), 1);
 			var blueTeam = teams[Math.floor(Math.random() * teams.length)];
@@ -304,23 +302,14 @@ export default defineComponent({
 	bottom: 0;
 	color: #fff;
 	display: grid;
-	grid-template-columns: auto 100px 100px 100px;
+	grid-template-columns: auto repeat(6, 100px) ;
 	left: 0;
 	padding: 1em;
 	position: fixed;
 	right: 0;
 	z-index: 10;
+	white-space: nowrap;
 }
-/* #SaveLocalStorage {
-	background-color: rgba(0, 0, 0, 0.5);
-	bottom: 0;
-	color: #fff;
-	display: grid;
-	left: 0;
-	padding: 1em;
-	position: fixed;
-	right: 0;
-} */
 /* #PayloadTracker {
 	background-color: rgba(255, 169, 169, 0.5);
 	bottom: 0;
