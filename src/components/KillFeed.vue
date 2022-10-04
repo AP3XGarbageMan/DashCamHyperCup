@@ -22,7 +22,7 @@ div {
 	--color-background-dark: #1f1f1f;
 	--color-text-white: white;
 	--color-team-blue: #000000;
-	--color-team-red: #6e6e6e;
+	--color-team-red: #CB9B05;
 	--padding-base: 2px;
 	--font-size: 20px;
 

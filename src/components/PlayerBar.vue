@@ -65,7 +65,7 @@
 	.playerBar_name{font-size:30px;font-weight:800;grid-column:4 / span 5;grid-row:6 / span 2;position:relative;}
 	.playerBar_name span{position:relative;z-index:10;}
 	.playerBar_name svg{position:absolute;left:0;}
-	.playerBar--red polygon{fill:#6e6e6e;}
+	.playerBar--red polygon{fill:#CB9B05;}
 </style>
 
 <style>

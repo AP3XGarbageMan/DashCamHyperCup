@@ -20,7 +20,7 @@
 	.mode--blue.mode--payload .bar{transform: scaleX(-1);}
 	
 	.mode--blue .bar .bar_fill{background-color:#000000;}
-	.mode--red .bar .bar_fill{background-color:#6e6e6e;}
+	.mode--red .bar .bar_fill{background-color:#CB9B05;}
 	
 	.mode--blue.mode--domination .bar .bar_fill{background-color:#000000;}
 	.mode--red.mode--domination .bar .bar_fill{background-color:#6e6e6e;}
