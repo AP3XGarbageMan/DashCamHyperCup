@@ -273,5 +273,17 @@ export default createStore({
 
 			return "Red";
 		},
+		payloadProgress(state){
+			var shortNum = state.matchInfo.timer.toFixed(0)
+			var timeNow = Number.parseInt(shortNum)
+
+			if (state.previousTime != timeNow){
+				state.previousTime = timeNow;
+				console.log(timeNow)
+				console.log(state.matchInfo.blueScore);
+				return (timeNow + ", " + state.matchInfo.blueScore);
+			}
+			return (timeNow + ", " + state.matchInfo.blueScore);
+		},
 	},
 });

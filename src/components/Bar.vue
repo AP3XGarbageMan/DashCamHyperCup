@@ -20,10 +20,10 @@
 	.mode--blue.mode--payload .bar{transform: scaleX(-1);}
 	
 	.mode--blue .bar .bar_fill{background-color:#000000;}
-	.mode--red .bar .bar_fill{background-color:#6e6e6e;}
+	.mode--red .bar .bar_fill{background-color:#979797;}
 	
 	.mode--blue.mode--domination .bar .bar_fill{background-color:#000000;}
-	.mode--red.mode--domination .bar .bar_fill{background-color:#6e6e6e;}
+	.mode--red.mode--domination .bar .bar_fill{background-color:#979797;}
 	
 	.mode--domination .bar{line-height:28px;width:28px;}
 </style>
